@@ -39,7 +39,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="admin" element={<Admin />} />
+        <Route path="Admin" element={<Admin />} />
         <Route path="Lanto" element={<UserChat />} />
         <Route path="Marinah" element={<UserChat2 />} />
         <Route path="Hanta" element={<UserChat3 />} />

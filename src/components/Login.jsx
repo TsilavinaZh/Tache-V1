@@ -140,7 +140,7 @@ const Login = () => {
     Hanta: { username: 'Administration003', password: 'admin', role: 'user', url: '/Hanta' },
   };
 
-  const adminUrl = '/admin';
+  const adminUrl = '/Admin';
 
   const onFinish = (values) => {
     setLoading(true);
